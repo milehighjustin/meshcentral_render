@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: rebasecamp-meshcentral
+    env: docker
+    plan: free
+    region: oregon
+    numInstances: 1
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: NODE_ENV
+        value: production
+      - key: MONGO_URL
+        value: mongodb+srv://rebasecamp:Pdmo6K48v9TZlJ18@rebasecamp.xqjhs8q.mongodb.net/?retryWrites=true&w=majority&appName=REbasecamp
