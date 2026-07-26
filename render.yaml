@@ -13,3 +13,5 @@ services:
         value: production
       - key: MONGO_URL
         value: mongodb+srv://rebasecamp:Pdmo6K48v9TZlJ18@rebasecamp.xqjhs8q.mongodb.net/?retryWrites=true&w=majority&appName=REbasecamp
+      - key: HOSTNAME
+        value: rebasecamp-meshcentral.onrender.com
