@@ -17,3 +17,5 @@ services:
         value: "443"
       - key: meshcentral_settings_cert
         value: rebasecamp-meshcentral.onrender.com
+      - key: meshcentral_settings_allowedorigin
+        value: "true"
