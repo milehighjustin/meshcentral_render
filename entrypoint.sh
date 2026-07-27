@@ -40,4 +40,4 @@ cat > "$DATA_DIR/config.json" <<EOF
 }
 EOF
 
-exec node node_modules/meshcentral --nice404
+exec node node_modules/meshcentral
