@@ -25,9 +25,7 @@ cat > "$DATA_DIR/config.json" <<EOF
     "cert": "${HOST}",
     "port": ${PORT},
     "aliasPort": 443,
-    "redirPort": ${PORT},
     "TLSOffload": true,
-    "trustedProxy": true,
     "WANonly": true,
     "sessionKey": "${SESSION_KEY:-changeThisToARandomSecretString}"
   },
